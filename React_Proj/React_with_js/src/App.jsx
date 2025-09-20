@@ -4,6 +4,8 @@ import AddtoCart from "./Components/AddtoCart"
 import WishlistProj from "./Components/WishlistProj"
 import UseRefProj from "./Components/UseRefProj"
 import UseeffectProj from "./Components/UseeffectProj"
+import EffectIntervalProj from "./Components/EffectIntervalProj"
+import DependencieArrMistake from "./Components/dependencieArrMistake"
 function App() {
 
   return (
@@ -12,7 +14,10 @@ function App() {
     {/* <AddtoCart/> */}
     {/* <WishlistProj/> */}
     {/* <UseRefProj/> */}
-    <UseeffectProj/>
+    {/* <UseeffectProj/> */}
+    {/* <EffectIntervalProj/> */}
+    <DependencieArrMistake/>
+
     </>
   )
 }
