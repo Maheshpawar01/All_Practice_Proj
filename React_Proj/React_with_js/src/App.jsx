@@ -3,6 +3,7 @@ import BrandFilter from "./Components/BrandFilter"
 import AddtoCart from "./Components/AddtoCart"
 import WishlistProj from "./Components/WishlistProj"
 import UseRefProj from "./Components/UseRefProj"
+import UseeffectProj from "./Components/UseeffectProj"
 function App() {
 
   return (
@@ -10,7 +11,8 @@ function App() {
     {/* <BrandFilter/> */}
     {/* <AddtoCart/> */}
     {/* <WishlistProj/> */}
-    <UseRefProj/>
+    {/* <UseRefProj/> */}
+    <UseeffectProj/>
     </>
   )
 }
