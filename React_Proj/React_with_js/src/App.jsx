@@ -7,6 +7,7 @@ import UseeffectProj from "./Components/UseeffectProj"
 import EffectIntervalProj from "./Components/EffectIntervalProj"
 import DependencieArrMistake from "./Components/dependencieArrMistake"
 import UseReducerProj from "./Components/UseReducerProj"
+import FilterProdProj from "./Components/FilterProdProj"
 function App() {
 
   return (
@@ -19,8 +20,8 @@ function App() {
     {/* <EffectIntervalProj/> */}
     {/* <DependencieArrMistake/> */}
 
-    <UseReducerProj/>
-
+    {/* <UseReducerProj/> */}
+    <FilterProdProj/>
     </>
   )
 }

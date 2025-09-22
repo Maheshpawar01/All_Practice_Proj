@@ -1,6 +1,5 @@
+@import "tailwindcss";
 
-body {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
+body{
+  margin: 2rem;
 }
