@@ -29,3 +29,10 @@ function CartProvider({children}) {
 const useCart =()=> useContext(CartContext)
 
 export { CartProvider, useCart, CartContext };
+
+
+//when you click on remove btn it remove all from same id 
+//when you add more the 1 item with different id then 
+// when you click on remove it removes only the cliked item id from array 
+
+//Revise 1 more time useReducer and useContext hook 
